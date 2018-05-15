@@ -1,0 +1,20 @@
+#background {
+  position: fixed;
+  background-size: 100%;
+}
+
+#title {
+    text-align: center;
+    font-size: 137px;
+    color: white;
+    font-family: Snell Roundhand, cursive;
+    border-width:15px;  
+    border-style:dotted;
+}
+
+#button (
+    color: #33f; 
+    background-color: #ccf; 
+    border:3px; 
+    outset #009;
+)

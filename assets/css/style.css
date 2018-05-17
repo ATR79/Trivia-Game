@@ -12,9 +12,10 @@
     border-style:dotted;
 }
 
-#button (
-    color: #33f; 
-    background-color: #ccf; 
-    border:3px; 
-    outset #009;
-)
+#button {
+    text-align: center;
+    font-size: 37px;
+    color: white;
+    font-family: snell roundhand, cursive;
+    font: bolder;
+}

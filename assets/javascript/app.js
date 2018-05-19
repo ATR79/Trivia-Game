@@ -27,9 +27,6 @@ function stop() {
     clearInterval(countDown);
 }
 
-//Thought a for loop would work well here with questions listed in an array
-//Couldn't figure it out, so went back to html
-
 //Narrow down question values
 $("#button").on("click", count);
 function count() {
@@ -55,7 +52,6 @@ function count() {
     if(question5 == "Larry") {
         correct++;
     }
-//How any correct
+//How many correct
 $("#number_correct").innerHTML = "You got " + correct + " correct! You so smaaat!";
 }
-

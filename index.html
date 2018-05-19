@@ -10,26 +10,86 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
-    <div class="container-fluid" id="title">
-        ~ Random Fact Trivia! ~
+<body background="assets/images/background.jpg" id="background" item-height="100%"></bodybackground> >
+
+<div class="container-fluid" id="title">
+    ~ Random Fact Trivia! ~
+</div>
+<div class="container">
+    <div class="row">
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4.5">
-            </div>
-            <div class="col-sm-3">
-                <button id="start">Start</button>
-                <div id="show-number"></div>
-            </div>
-        </div>
+    <div class="col-sm-3">
+        <button id="start" onclick="start">Click To Start!</button>
+        <div id="show-number"></div>
     </div>
+</div>
+</div>
+<br>
+<div class="container" id="questions">
+    <div class="row">
+        <h2>The heart of a shrimp is located where?</h2>
+    </div>
+    <div class="row">
+        <form>
+            <input type="radio" name="shrimp" value="stomach"> stomach 
+            <input type="radio" name="shrimp" value="head"> head 
+            <input type="radio" name="shrimp" value="tail"> tail 
+        </form>
+    </div>
+    <br>
+    <div class="row">
+        <h2>How long can a snail sleep?</h2>
+    </div>
+    <div class="row">
+        <form>
+            <input type="radio" name="snail" value="30 seconds"> 30 seconds
+            <input type="radio" name="snail" value="3 months"> 3 months
+            <input type="radio" name="snail" value="3 years"> 3 years
+        </form>
+    </div>
+    <br>
+    <div class="row">
+        <h2>What is the fear of fun?</h2>
+    </div>
+    <div class="row">
+        <form>
+            <input type="radio" name="fun" value="Cherophobia"> Cherophobia
+            <input type="radio" name="fun" value="Funophobia"> Funophobia
+            <input type="radio" name="fun" value="Pleasophobia"> Pleasophobia
+        </form>
+    </div>
+    <br>
+    <div class="row">
+        <h2>How many steps are in the Eiffel Tower?</h2>
+    </div>
+    <div class="row">
+        <form>
+            <input type="radio" name="tower" value="3497"> 3497
+            <input type="radio" name="tower" value="1665"> 1665
+            <input type="radio" name="tower" value="2961"> 2961
+        </form>
+    </div>
+    <br>
+    <div class="row">
+        <h2>What is the Twitter bird's name?</h2>
+    </div>
+    <div class="row">
+        <form>
+            <input type="radio" name="bird" value="Fred"> Fred
+            <input type="radio" name="bird" value="Scott"> Scott
+            <input type="radio" name="bird" value="Larry"> Larry
+        </form>
+    </div>
+    <br>
+    <input type="button" id="button" value="How'd I do?">
+    <p id="number_correct"></p>
+    <br><br><br>
+</div>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
     crossorigin="anonymous">
+<script src="assets/javascript/app.js"></script>
 
-<body background="assets/images/background.jpg" id="background" item-height="100%">
-    <br>
-    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>

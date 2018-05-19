@@ -1,11 +1,11 @@
 #background {
-  position: fixed;
+  position: static;
   background-size: 100%;
 }
 
 #title {
     text-align: center;
-    font-size: 137px;
+    font-size: 120px;
     color: white;
     font-family: Snell Roundhand, cursive;
     border-width:15px;  
@@ -19,4 +19,23 @@
     color: white;
     font-family: snell roundhand, cursive;
     font: bolder;
+    border-style: inset;
 }
+ #show-number {
+     font-family: snell roundhand, cursive;
+     color: white;
+ }
+
+ #questions {
+     color: white;
+ }
+
+ #button {
+     background-color: transparent;
+     text-align: center;
+     font-size: 37px;
+     color: white;
+     font-family: snell roundhand, cursive;
+     font: bolder;
+     border-style: inset;
+ }

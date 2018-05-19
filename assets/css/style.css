@@ -12,7 +12,8 @@
     border-style:dotted;
 }
 
-#button {
+#start {
+    background-color: transparent;
     text-align: center;
     font-size: 37px;
     color: white;

@@ -1,3 +1,6 @@
-$("#button").on("click", function(){
-    console.log(button)
-})
+var number = 60;
+
+var countDown;
+
+
+$("#button").on("click", run);
